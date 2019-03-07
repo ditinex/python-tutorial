@@ -1,0 +1,9 @@
+{
+    "cmd": ["start", "cmd", "/k", "PATH_TO_PYTHON", "$file"],
+    "selector": "source.python",
+    "shell": true,
+    "working_dir": "$file_dir",
+    "quiet": true
+}
+
+"show_panel_on_build": true,
